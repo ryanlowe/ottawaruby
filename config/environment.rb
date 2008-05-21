@@ -36,10 +36,10 @@ Rails::Initializer.run do |config|
   # If you change this key, all old sessions will become invalid!
   # Make sure the secret is at least 30 characters and all random, 
   # no regular words or you'll be exposed to dictionary attacks.
-  config.action_controller.session = {
-    :session_key => '_ogre_session',
-    :secret      => '209cdb4af9605323c80dee418560d5f349e91e3480a80da5b1f8af035498dba58ad2c7cde784f0335ab931654b795245869990801a12434ad85cf6f85e7f6604'
-  }
+  # config.action_controller.session = {
+  #   :session_key => '_ogre_session',
+  #   :secret      => '209cdb4af9605323c80dee418560d5f349e91e3480a80da5b1f8af035498dba58ad2c7cde784f0335ab931654b795245869990801a12434ad85cf6f85e7f6604'
+  # }
 
   # Use the database for sessions instead of the cookie-based default,
   # which shouldn't be used to store highly confidential information

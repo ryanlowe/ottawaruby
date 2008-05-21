@@ -1,0 +1,2 @@
+#!/bin/sh
+/home/ogre/rails/ogre/current/script/process/spawner -p 8000 -i 1
