@@ -1,12 +1,12 @@
-set :application, "ogre.infonium.ca:3122"
-set :project, "ogre"
+set :application, "ottawaruby.ca"
+ssh_options[:port] = 3122
+set :project, "ottawaruby"
 set :user, "ogre"
 
 default_run_options[:pty] = true
-set :repository,  "git@github.com:ryanlowe/ogre.git"
+set :repository,  "git@github.com:ryanlowe/ottawaruby.git"
 set :scm, "git"
 set :branch, "origin/master"
-#set :scm_passphrase, "p00p" #This is your custom users password
 
 set :deploy_to, "/home/#{user}/rails/#{project}"
 set :deploy_via, :remote_cache
